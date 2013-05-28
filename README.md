@@ -1,0 +1,1 @@
+Pomodoro is a technique to manage task by dividing the time in small chunks and performing each task in that chunk. This app is madein android and can support api level 11 through 17.

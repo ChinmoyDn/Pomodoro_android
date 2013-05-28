@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<item name="labels_pomodoros" type="id">Pomodoros</item><item name="activity_dtls_no_of_pomodoros" type="id"/><item name="activity_dtls_no_of_small_brks" type="id"/><item name="avtivity_dtls_long_brks" type="id"/><item name="activity_dtls_title" type="id"/></resources>

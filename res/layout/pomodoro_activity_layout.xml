@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/styleTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/pomodoro_activity_title" />
+
+    <TextView
+        android:id="@+id/label_stage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_stage" />
+
+    <TextView
+        android:id="@+id/pomodoros_completed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_pomodoro_com" />
+
+    <TextView
+        android:id="@+id/label_breaks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_breaks" />
+
+    <TextView
+        android:id="@+id/label_long_break"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_long_breaks" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:max="100"/>
+
+    <TextView
+        android:id="@+id/completed"
+        style="@style/style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pomodoro_activity_percentage_completed" />
+
+</LinearLayout>

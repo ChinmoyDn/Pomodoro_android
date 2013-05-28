@@ -1,0 +1,42 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="style" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    </style>
+    
+    <style name="styleTitle" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+    <style name="time_styleName" parent="android:Widget.Holo.Light.EditText">
+        <item name="android:ems">10</item>
+        <item name="android:inputType">time</item>
+        <item name="android:layout_marginTop">26dp</item>
+    </style>
+    <style name="activity_name_style" parent="android:Widget.Holo.Light.EditText">
+        <item name="android:ems">10</item>
+        <item name="android:layout_marginTop">67dp</item>
+    </style>
+    <style name="create_button_style" parent="android:Widget.Holo.Light.Button">
+        <item name="android:layout_marginTop">30dp</item>
+    </style>
+
+</resources>
